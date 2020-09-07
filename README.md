@@ -1,7 +1,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]](https://github.com/aadimangla/IMDB-Movie-Reviews-Sentiment-Analysis/issues)
+[![Issues][issues-shield]](https://github.com/aadimangla/Custom-Trained-Recurrent-Neural-Network/issues)
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -26,7 +26,7 @@
     ·
     <a href="">Report Bug</a>
     · -->
-    <a href="https://github.com/aadimangla/Handwritten-Digit-Classification/issues">Request Feature</a>
+    <a href="https://github.com/aadimangla/Custom-Trained-Recurrent-Neural-Network/issues">Request Feature</a>
   </p>
 </p>
 
@@ -50,33 +50,16 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
-It is a good database for people who want to try learning techniques and pattern recognition methods on real-world data while spending minimal efforts on preprocessing and formatting.
-
-Four files are available on this site:
-
-train-images-idx3-ubyte.gz:  training set images (9912422 bytes)
-train-labels-idx1-ubyte.gz:  training set labels (28881 bytes)
-t10k-images-idx3-ubyte.gz:   test set images (1648877 bytes)
-t10k-labels-idx1-ubyte.gz:   test set labels (4542 bytes)
-
-Offline handwriting recognition, often referred to as optical character recognition, is performed after the writing is completed by converting the handwritten document into digital form. The advantage of offline recognition is that it can be done at any time after the document has been written, even years later. The disadvantage is that it is not done in real time as a person writes and therefore not appropriate for immediate text input.
-
-![](images/mnist.png)
+Using high-level frameworks like Keras, TensorFlow or PyTorch allows us to build very complex models quickly. However, it is worth taking the time to look inside and understand underlying concepts. Not so long ago I published an article, explaining — in a simple way — how neural nets work. However, it was highly theoretical post, dedicated primarily to math, which is the source of NN superpower. From the beginning I was planning to follow-up this topic in a more practical way. This time we will try to utilize our knowledge and build a fully operational neural network using only NumPy. Finally, we will also test our model — solve simple classification problem and compare its performance with NN built with Keras.
 
 Here's why:
-* The advantage of offline recognition is that it can be done at any time after the document has been written, even years later. The disadvantage is that it is not done in real time as a person writes and therefore not appropriate for immediate text input.
-
-The dataset is available at [THE MNIST DATABASE of handwritten digits](http://yann.lecun.com/exdb/mnist/) .
+* Building a nn from scratch helps in understanding how nn works in the back-end and it is essential for building effective models.
 
 
 ### Built With
 
 This was build using following frameworks, libraries and softwares.
-* [Tensorflow](https://www.tensorflow.org/)
-* [Keras](https://keras.io/)
-* [Matplotlib](https://matplotlib.org/)
+* [Numpy](https://numpy.org/)
 
 ---
 <!-- GETTING STARTED -->
@@ -131,16 +114,13 @@ $ rasa shell
 
 ---
 <!-- USAGE EXAMPLES -->
-## Usage
 
-Applications of offline handwriting recognition are numerous: reading postal addresses, bank check amounts, and forms. Furthermore, OCR plays an important role for digital libraries, allowing the entry of image textual information into computers by digitization, image restoration, and recognition methods.
 
----
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/aadimangla/Handwritten-Digit-Classification/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/aadimangla/Custom-Trained-Recurrent-Neural-Network/issues) for a list of proposed features (and known issues).
 
 
 ---
@@ -174,32 +154,30 @@ Contributions are what make the open source community such an amazing place to b
 
 Aditya Mangla - [@aadimangla](https://twitter.com/aadimangla) - aadimangla@gmail.com - [adityamangla.com](http://www.adityamangla.com/index.html)
 
-Project Link: [https://github.com/aadimangla/Handwritten-Digit-Classification](https://github.com/aadimangla/Handwritten-Digit-Classification)
+Project Link: [https://github.com/aadimangla/Custom-Trained-Recurrent-Neural-Network](https://github.com/aadimangla/Custom-Trained-Recurrent-Neural-Network)
 
 ---
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Tensorflow](https://www.tensorflow.org/)
-* [Keras](https://keras.io/)
-* [Matplotlib](https://matplotlib.org/)
-* [Embedding Projector](https://projector.tensorflow.org/)
+* [Numpy](https://numpy.org/)
+
 
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/aadimangla/Handwritten-Digit-Classification.svg?style=flat-square
-[contributors-url]: https://github.com/aadimangla/Handwritten-Digit-Classificationl/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/aadimangla/Handwritten-Digit-Classification.svg?style=flat-square
-[forks-url]: https://github.com/aadimangla/Handwritten-Digit-Classification/network/members
-[stars-shield]: https://img.shields.io/github/stars/aadimangla/Handwritten-Digit-Classification.svg?style=flat-square
-[stars-url]: https://github.com/aadimangla/Handwritten-Digit-Classification/stargazers
-[issues-shield]: https://img.shields.io/github/issues/aadimangla/Handwritten-Digit-Classification.svg?style=flat-square
-[issues-url]: https://github.com/aadimangla/Handwritten-Digit-Classification/issues
-[license-shield]: https://img.shields.io/github/license/aadimangla/Handwritten-Digit-Classificationl.svg?style=flat-square
-[license-url]: https://github.com/aadimangla/Handwritten-Digit-Classification/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/aadimangla/Custom-Trained-Recurrent-Neural-Network.svg?style=flat-square
+[contributors-url]: https://github.com/aadimangla/Custom-Trained-Recurrent-Neural-Network/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/aadimangla/Custom-Trained-Recurrent-Neural-Network.svg?style=flat-square
+[forks-url]: https://github.com/aadimangla/Custom-Trained-Recurrent-Neural-Network/network/members
+[stars-shield]: https://img.shields.io/github/stars/aadimangla/Custom-Trained-Recurrent-Neural-Network.svg?style=flat-square
+[stars-url]: https://github.com/aadimangla/Custom-Trained-Recurrent-Neural-Network/stargazers
+[issues-shield]: https://img.shields.io/github/issues/aadimangla/Custom-Trained-Recurrent-Neural-Network.svg?style=flat-square
+[issues-url]: https://github.com/aadimangla/Custom-Trained-Recurrent-Neural-Network/issues
+[license-shield]: https://img.shields.io/github/license/aadimangla/Custom-Trained-Recurrent-Neural-Network.svg?style=flat-square
+[license-url]: https://github.com/aadimangla/Custom-Trained-Recurrent-Neural-Network/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/aadimangla
 [product-screenshot]: images/screenshot.png
